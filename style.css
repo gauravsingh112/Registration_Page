@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: antiquewhite;
+  }
+  
+  .container {
+    width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    background-color: aqua;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-top: 10px;
+  }
+  
+  input, button {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    /* background-color: #45a049; */
+    background-color: #030d3f;
+  }
